@@ -96,16 +96,62 @@
   text-align: center;
   color: white;
 }
+#categories #kids h1 {
+  position: absolute;
+  top: 49%;
+  left: 38%;
+  color: white;
+}
+#categories #kids p {
+  position: absolute;
+  top: 59%;
+  left: 39%;
+  color: white;
+}
 #categories #beginners {
   margin-right: 2%;
   margin-left: 2%;
   position: relative;
   color: white;
 }
+#categories #beginners h1 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+}
+#categories #beginners p {
+  position: absolute;
+  top: 60%;
+  left: 44%;
+  color: white;
+}
 #categories #popular {
   margin-left: 2%;
   position: relative;
   color: white;
+}
+#categories #popular h1 {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+}
+#categories #popular p {
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  color: white;
+}
+
+#brand-statement {
+  display: flex;
+  margin-top: 2%;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  height: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

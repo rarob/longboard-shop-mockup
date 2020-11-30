@@ -90,16 +90,61 @@
     position: relative;
     text-align: center;
     color: white;
+    h1 {
+      position: absolute;
+      top: 49%;
+      left: 38%;
+      color: white;
+    }
+    p {
+      position: absolute;
+      top: 59%;
+      left: 39%;
+      color: white;
+    }
   }
   #beginners {
     margin-right: 2%;
     margin-left: 2%;
     position: relative;
     color: white;
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      color: white;
+    }
+    p {
+      position: absolute;
+      top: 60%;
+      left: 44%;
+      color: white;
+    }
   }
   #popular {
     margin-left: 2%;
     position: relative;
     color: white;
+    h1 {
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      color: white;
+    }
+    p {
+      position: absolute;
+      top: 60%;
+      left: 40%;
+      color: white;
+    }
   }
+}
+#brand-statement {
+  display: flex;
+  margin-top: 2%;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  height: auto;
 }
