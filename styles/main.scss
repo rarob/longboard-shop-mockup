@@ -39,3 +39,26 @@
     }
   }
 }
+#banner {
+  position: relative;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  #buttons {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+  }
+  .btn {
+    color: white;
+    background-color: black;
+  }
+  #btn1 {
+    margin-right: 5px;
+  }
+}
