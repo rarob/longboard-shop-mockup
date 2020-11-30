@@ -1,0 +1,41 @@
+#heading {
+  width: 100%;
+}
+#main-nav {
+  background-color: white;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 0%;
+  margin-top: 15px;
+  #home {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    li {
+      display: inline;
+      padding-right: 5%;
+    }
+  }
+  #store-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    li {
+      display: inline;
+      padding-right: 5%;
+    }
+  }
+
+  #icon-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    li {
+      display: inline;
+      padding-right: 5%;
+    }
+  }
+}
