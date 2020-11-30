@@ -145,13 +145,16 @@
 }
 
 #brand-statement {
-  display: flex;
+  display: block;
   margin-top: 2%;
   padding: 10px 10px;
   background-color: black;
   color: white;
-  justify-content: center;
+  text-align: center;
   height: auto;
+}
+#brand-statement p {
+  margin-bottom: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

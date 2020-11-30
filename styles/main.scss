@@ -140,11 +140,14 @@
   }
 }
 #brand-statement {
-  display: flex;
+  display: block;
   margin-top: 2%;
   padding: 10px 10px;
   background-color: black;
   color: white;
-  justify-content: center;
+  text-align: center;
   height: auto;
+  p {
+    margin-bottom: 2px;
+  }
 }
