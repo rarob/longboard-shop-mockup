@@ -105,6 +105,10 @@ body {
   text-align: center;
   color: white;
 }
+#categories #kids img {
+  width: 100%;
+  height: auto;
+}
 #categories #kids h1 {
   position: absolute;
   top: 49%;
@@ -123,34 +127,18 @@ body {
   position: relative;
   color: white;
 }
-#categories #beginners h1 {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  color: white;
-}
-#categories #beginners p {
-  position: absolute;
-  top: 60%;
-  left: 44%;
-  color: white;
+#categories #beginners img {
+  width: 100%;
+  height: auto;
 }
 #categories #popular {
   margin-left: 2%;
   position: relative;
   color: white;
 }
-#categories #popular h1 {
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  color: white;
-}
-#categories #popular p {
-  position: absolute;
-  top: 60%;
-  left: 40%;
-  color: white;
+#categories #popular img {
+  width: 100%;
+  height: auto;
 }
 
 #brand-statement {

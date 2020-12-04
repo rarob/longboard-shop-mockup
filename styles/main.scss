@@ -100,6 +100,10 @@ body {
     position: relative;
     text-align: center;
     color: white;
+    img {
+      width: 100%;
+      height: auto;
+    }
     h1 {
       position: absolute;
       top: 49%;
@@ -118,34 +122,19 @@ body {
     margin-left: 2%;
     position: relative;
     color: white;
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 30%;
-      color: white;
-    }
-    p {
-      position: absolute;
-      top: 60%;
-      left: 44%;
-      color: white;
+    img {
+      width: 100%;
+      height: auto;
     }
   }
   #popular {
     margin-left: 2%;
     position: relative;
     color: white;
-    h1 {
-      position: absolute;
-      top: 50%;
-      left: 30%;
-      color: white;
-    }
-    p {
-      position: absolute;
-      top: 60%;
-      left: 40%;
-      color: white;
+
+    img {
+      width: 100%;
+      height: auto;
     }
   }
 }
