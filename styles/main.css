@@ -59,17 +59,33 @@ body {
   width: 100%;
   display: flex;
   position: absolute;
-  top: 38%;
-  left: 50%;
+  top: 50%;
+  left: 25%;
   transform: translate(-50%, -50%);
   justify-content: center;
 }
 #banner .btn {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  border-radius: 0px;
+  font-size: 15px;
+  width: auto;
+  height: auto;
 }
 #banner #btn1 {
-  margin-right: 5px;
+  margin-right: 8px;
+  border-radius: 0px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#banner #btn2 {
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 #gg-banner {
@@ -108,18 +124,6 @@ body {
 #categories #kids img {
   width: 100%;
   height: auto;
-}
-#categories #kids h1 {
-  position: absolute;
-  top: 49%;
-  left: 38%;
-  color: white;
-}
-#categories #kids p {
-  position: absolute;
-  top: 59%;
-  left: 39%;
-  color: white;
 }
 #categories #beginners {
   margin-right: 2%;
