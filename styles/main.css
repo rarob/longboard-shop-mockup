@@ -9,6 +9,22 @@ body {
 #heading {
   width: 100%;
 }
+#heading #promo {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  height: 21px;
+}
+#heading #promo p {
+  font-size: 12px;
+  padding-top: 1px;
+  padding-bottom: 3px;
+}
+#heading #promo a {
+  text-decoration: underline;
+  color: white;
+}
 
 #main-nav {
   background-color: white;
