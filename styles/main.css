@@ -9,6 +9,16 @@ body {
 #heading {
   width: 100%;
 }
+#heading #brand {
+  margin-right: auto;
+}
+#heading img {
+  width: auto;
+  max-height: 40px;
+  height: auto;
+  position: relative;
+  left: 95%;
+}
 #heading #promo {
   display: flex;
   justify-content: center;
@@ -49,9 +59,9 @@ body {
   display: flex;
   flex-grow: 1;
   justify-content: center;
+  margin-left: 3%;
 }
 #main-nav #store-nav li {
-  display: inline;
   padding-right: 5%;
 }
 #main-nav #icon-nav {
