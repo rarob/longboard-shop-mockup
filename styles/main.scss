@@ -1,3 +1,12 @@
+$breakpoint1: 1024px;
+$breakpoint2: 600px;
+$breakpoint3: 480px;
+html {
+  max-width: 100%;
+}
+body {
+  max-width: 100%;
+}
 #heading {
   width: 100%;
 }
@@ -85,6 +94,7 @@
 #categories {
   display: flex;
   justify-content: center;
+  width: 100%;
   #kids {
     margin-right: 2%;
     position: relative;
@@ -139,6 +149,7 @@
     }
   }
 }
+
 #brand-statement {
   display: block;
   margin-top: 2%;
@@ -149,5 +160,55 @@
   height: auto;
   p {
     margin-bottom: 2px;
+  }
+}
+#popular-boards {
+  height: 50%;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  h5 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: black;
+  }
+}
+.caro {
+  display: flex;
+  justify-content: center;
+  max-width: 330px;
+  max-height: 295px;
+  max-width: 100%;
+}
+#carousel-container {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.slick-next {
+  background-color: grey;
+  border-radius: 85%;
+  height: 5%;
+}
+.slick-prev {
+  background-color: grey;
+  border-radius: 85%;
+  height: 5%;
+}
+.sliders {
+  display: block;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  p {
+    text-align: center;
+    font-size: small;
+  }
+  #dimensions {
+    font-size: small;
+  }
+  .btn .btn-danger {
+    align-items: center;
   }
 }
