@@ -104,6 +104,7 @@ body {
   justify-content: center;
   text-align: center;
   a {
+    font-weight: bold;
     text-decoration: none;
     color: red;
   }
@@ -144,15 +145,32 @@ body {
   }
 }
 #brand-statement {
-  display: block;
-  margin-top: 2%;
-  padding: 10px 10px;
-  background-color: black;
-  color: white;
-  text-align: center;
+  background-image: url("/img/lb-background.jpg");
   height: auto;
+  width: auto;
+  margin-top: 3%;
+  h4 {
+    text-align: center;
+    color: white;
+    padding-top: 1%;
+  }
   p {
     margin-bottom: 2px;
+    padding: 5px 5px;
+    text-align: center;
+    color: white;
+    margin-top: 1%;
+    display: block;
+    height: auto;
+  }
+  #sale-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  button {
+    border: none;
+    margin-bottom: 1%;
+    margin-left: 1%;
   }
 }
 #popular-boards {
@@ -203,5 +221,67 @@ body {
   }
   .btn .btn-danger {
     align-items: center;
+  }
+}
+@mixin exp-cs-panels {
+  color: white;
+  text-decoration: none;
+  h5 {
+    padding-bottom: 6%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  a {
+    color: white;
+  }
+}
+footer {
+  display: flex;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+  background-color: black;
+}
+#the-company {
+  @include exp-cs-panels;
+  margin-right: 4%;
+  h4 {
+    padding-bottom: 6%;
+  }
+}
+
+#explore {
+  @include exp-cs-panels;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#cs {
+  @include exp-cs-panels;
+  padding-right: 5%;
+}
+
+#contact {
+  color: white;
+  #subscribe {
+    vertical-align: bottom;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(47, 50, 65);
+    color: white;
+  }
+  #newsletter {
+    vertical-align: bottom;
+    height: 30px;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+  h5 {
+    font-size: 15px;
+    padding-bottom: 2.4%;
+    font-weight: bold;
   }
 }

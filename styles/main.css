@@ -106,6 +106,7 @@ body {
   text-align: center;
 }
 #gg-desc a {
+  font-weight: bold;
   text-decoration: none;
   color: red;
 }
@@ -146,16 +147,33 @@ body {
 }
 
 #brand-statement {
-  display: block;
-  margin-top: 2%;
-  padding: 10px 10px;
-  background-color: black;
-  color: white;
-  text-align: center;
+  background-image: url("/img/lb-background.jpg");
   height: auto;
+  width: auto;
+  margin-top: 3%;
+}
+#brand-statement h4 {
+  text-align: center;
+  color: white;
+  padding-top: 1%;
 }
 #brand-statement p {
   margin-bottom: 2px;
+  padding: 5px 5px;
+  text-align: center;
+  color: white;
+  margin-top: 1%;
+  display: block;
+  height: auto;
+}
+#brand-statement #sale-buttons {
+  display: flex;
+  justify-content: center;
+}
+#brand-statement button {
+  border: none;
+  margin-bottom: 1%;
+  margin-left: 1%;
 }
 
 #popular-boards {
@@ -212,6 +230,86 @@ body {
 }
 .sliders .btn .btn-danger {
   align-items: center;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  padding-top: 2%;
+  justify-content: center;
+  background-color: black;
+}
+
+#the-company {
+  color: white;
+  text-decoration: none;
+  margin-right: 4%;
+}
+#the-company h5 {
+  padding-bottom: 6%;
+  font-size: 15px;
+  font-weight: bold;
+}
+#the-company a {
+  color: white;
+}
+#the-company h4 {
+  padding-bottom: 6%;
+}
+
+#explore {
+  color: white;
+  text-decoration: none;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+#explore h5 {
+  padding-bottom: 6%;
+  font-size: 15px;
+  font-weight: bold;
+}
+#explore a {
+  color: white;
+}
+
+#cs {
+  color: white;
+  text-decoration: none;
+  padding-right: 5%;
+}
+#cs h5 {
+  padding-bottom: 6%;
+  font-size: 15px;
+  font-weight: bold;
+}
+#cs a {
+  color: white;
+}
+
+#contact {
+  color: white;
+}
+#contact #subscribe {
+  vertical-align: bottom;
+  border: none;
+  height: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #2f3241;
+  color: white;
+}
+#contact #newsletter {
+  vertical-align: bottom;
+  height: 30px;
+}
+#contact a {
+  color: white;
+  text-decoration: underline;
+}
+#contact h5 {
+  font-size: 15px;
+  padding-bottom: 2.4%;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=main.css.map */
