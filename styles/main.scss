@@ -6,74 +6,85 @@ body {
 }
 #heading {
   width: 100%;
-  #brand {
-    margin-right: auto;
+}
+#promo {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  height: 21px;
+  p {
+    font-size: 12px;
+    padding-top: 1px;
+    padding-bottom: 3px;
   }
-  img {
-    width: auto;
-    max-height: 40px;
-    height: auto;
-    position: relative;
-    left: 95%;
-  }
-  #promo {
-    display: flex;
-    justify-content: center;
-    background-color: red;
+  a {
+    text-decoration: underline;
     color: white;
-    height: 21px;
-    p {
-      font-size: 12px;
-      padding-top: 1px;
-      padding-bottom: 3px;
-    }
-    a {
-      text-decoration: underline;
-      color: white;
-    }
   }
 }
+
 #main-nav {
   background-color: white;
   text-decoration: none;
   list-style-type: none;
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  padding: 0%;
-  margin-top: 15px;
-
-  #home {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-
-    li {
-      display: inline;
-      padding-right: 5%;
-    }
+  justify-content: center;
+  padding-top: 13px;
+  height: auto;
+}
+#home {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  img {
+    width: auto;
+    max-height: 40px;
+    height: auto;
   }
-  #store-nav {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
-    margin-left: 3%;
-    li {
-      padding-right: 5%;
-    }
+  li {
+    padding-right: 5%;
   }
+}
+#store-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  margin-right: 5%;
 
-  #icon-nav {
-    display: flex;
-    flex-grow: 1;
-    justify-content: center;
+  a:hover {
+    text-decoration: none;
+    color: lightgrey;
+  }
+  li {
+    padding-right: 5%;
 
-    li {
-      display: inline;
-      padding-right: 5%;
+    a {
+      color: black;
+      font-weight: bold;
+      position: relative;
+      top: 15%;
     }
   }
 }
+#icon-nav {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  svg {
+    color: grey;
+  }
+  svg:hover {
+    color: black;
+  }
+
+  li {
+    display: inline;
+    padding-right: 5%;
+  }
+}
+
 #banner {
   position: relative;
   img {

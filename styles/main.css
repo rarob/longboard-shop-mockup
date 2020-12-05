@@ -9,29 +9,20 @@ body {
 #heading {
   width: 100%;
 }
-#heading #brand {
-  margin-right: auto;
-}
-#heading img {
-  width: auto;
-  max-height: 40px;
-  height: auto;
-  position: relative;
-  left: 95%;
-}
-#heading #promo {
+
+#promo {
   display: flex;
   justify-content: center;
   background-color: red;
   color: white;
   height: 21px;
 }
-#heading #promo p {
+#promo p {
   font-size: 12px;
   padding-top: 1px;
   padding-bottom: 3px;
 }
-#heading #promo a {
+#promo a {
   text-decoration: underline;
   color: white;
 }
@@ -42,34 +33,57 @@ body {
   list-style-type: none;
   display: flex;
   width: 100%;
-  justify-content: space-between;
-  padding: 0%;
-  margin-top: 15px;
+  justify-content: center;
+  padding-top: 13px;
+  height: auto;
 }
-#main-nav #home {
+
+#home {
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
-#main-nav #home li {
-  display: inline;
+#home img {
+  width: auto;
+  max-height: 40px;
+  height: auto;
+}
+#home li {
   padding-right: 5%;
 }
-#main-nav #store-nav {
+
+#store-nav {
   display: flex;
   flex-grow: 1;
   justify-content: center;
-  margin-left: 3%;
+  margin-right: 5%;
 }
-#main-nav #store-nav li {
+#store-nav a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+#store-nav li {
   padding-right: 5%;
 }
-#main-nav #icon-nav {
+#store-nav li a {
+  color: black;
+  font-weight: bold;
+  position: relative;
+  top: 15%;
+}
+
+#icon-nav {
   display: flex;
   flex-grow: 1;
   justify-content: center;
 }
-#main-nav #icon-nav li {
+#icon-nav svg {
+  color: grey;
+}
+#icon-nav svg:hover {
+  color: black;
+}
+#icon-nav li {
   display: inline;
   padding-right: 5%;
 }
