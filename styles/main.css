@@ -254,7 +254,7 @@ body {
   text-align: center;
   margin-bottom: 2px;
   padding: 5px 5px;
-  top: 2010px;
+  top: 1990px;
   color: white;
   position: absolute;
   width: 100%;
@@ -276,7 +276,7 @@ body {
   margin-left: 1%;
 }
 #brand-statement button:hover {
-  opacity: 50;
+  opacity: 0.5;
 }
 #brand-statement img {
   width: 100%;
