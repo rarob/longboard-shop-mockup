@@ -237,7 +237,7 @@ body {
   margin-top: 3%;
 }
 #brand-statement h4 {
-  top: 1950px;
+  top: 1670px;
 
   display: flex;
   width: 100%;
@@ -252,7 +252,7 @@ body {
   text-align: center;
   margin-bottom: 2px;
   padding: 5px 5px;
-  top: 2010px;
+  top: 1720px;
   color: white;
   position: absolute;
   width: 100%;
@@ -263,7 +263,7 @@ body {
   justify-content: center;
   width: 100%;
   position: absolute;
-  top: 2075px;
+  top: 1790px;
 }
 #brand-statement button {
   border: none;
@@ -275,7 +275,7 @@ body {
 }
 #brand-statement img {
   width: 100%;
-  height: 200px;
+  height: 18 0px;
   position: relative;
 }
 
