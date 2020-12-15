@@ -238,12 +238,10 @@ body {
 }
 #brand-statement h4 {
   top: 1950px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+
   display: flex;
   width: 100%;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+
   justify-content: center;
   color: white;
   padding-top: 1%;
@@ -254,17 +252,14 @@ body {
   text-align: center;
   margin-bottom: 2px;
   padding: 5px 5px;
-  top: 1900px;
+  top: 2010px;
   color: white;
   position: absolute;
   width: 100%;
 }
 #brand-statement #sale-buttons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+
   justify-content: center;
   width: 100%;
   position: absolute;
