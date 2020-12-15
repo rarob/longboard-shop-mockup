@@ -239,8 +239,16 @@ body {
 #brand-statement h4 {
   top: 1670px;
 
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
   display: flex;
   width: 100%;
+
+  -webkit-box-pack: center;
+
+  -ms-flex-pack: center;
 
   justify-content: center;
   color: white;
@@ -258,7 +266,13 @@ body {
   width: 100%;
 }
 #brand-statement #sale-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+
+  -webkit-box-pack: center;
+
+  -ms-flex-pack: center;
 
   justify-content: center;
   width: 100%;
