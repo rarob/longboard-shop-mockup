@@ -1,11 +1,12 @@
 html {
-  max-width: 100%;
+  height: auto;
+  width: auto;
 }
 
 body {
-  max-width: 100%;
+  height: auto;
+  width: auto;
 }
-
 #heading {
   width: 100%;
 }
@@ -30,7 +31,41 @@ body {
   text-decoration: underline;
   color: white;
 }
-
+@media only screen and (min-width: 900px) {
+  .mobile-nav {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #main-nav #home {
+    padding-left: 1%;
+  }
+  #store-nav li a {
+    display: none;
+  }
+  #icon-nav {
+    margin: 5px;
+  }
+  .mobile-nav {
+    visibility: visible;
+    display: block;
+    width: 15px;
+    height: 1px;
+    background-color: black;
+    margin: 5px;
+  }
+}
+#mobile-nav-wrapper {
+  margin-right: 4%;
+  margin-top: 4px;
+}
+.mobile-nav {
+  display: block;
+  width: 15px;
+  height: 1px;
+  background-color: black;
+  margin: 5px;
+}
 #main-nav {
   background-color: white;
   text-decoration: none;
@@ -122,8 +157,6 @@ body {
   height: auto;
 }
 #banner #buttons {
-  width: auto;
-  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,6 +169,11 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
+}
+@media only screen and (max-width: 900px) {
+  #banner #buttons {
+    display: none;
+  }
 }
 #banner .btn {
   color: black;
@@ -180,7 +218,15 @@ body {
   width: 20%;
   height: 20%;
 }
-
+@media only screen and (max-width: 900px) {
+  #gg-desc {
+    visibility: hidden;
+    height: 0;
+  }
+  #gg-banner img {
+    width: 50%;
+  }
+}
 #gg-desc {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -241,6 +287,20 @@ body {
   width: auto;
   margin-top: 3%;
 }
+@media only screen and (max-width: 1860px) {
+  #brand-statement {
+    visibility: hidden;
+  }
+  #sale-buttons {
+    visibility: hidden;
+  }
+  #brand-statement img {
+    visibility: visible;
+    width: auto;
+    max-height: 15px;
+  }
+}
+
 #brand-statement h4 {
   top: 1670px;
 
@@ -333,7 +393,7 @@ body {
   margin-right: 10%;
 }
 
-  .sliders {
+.sliders {
   display: block;
   padding-left: 25px;
   padding-right: 25px;
@@ -356,14 +416,55 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  max-width: 100%;
+
+  height: 100%;
   padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   background-color: black;
 }
+@media only screen and (max-width: 854px) {
+  #tab-desk {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+  }
+  #mobile-footer {
+    visibility: visible;
+    padding-top: 0;
+  }
+}
+@media only screen and (min-width: 854px) {
+  #mobile-footer-div {
+    visibility: hidden;
+    height: 0;
+  }
+}
 
+#mobile-footer-div {
+  background-color: black;
+  display: flex;
+  width: 100%;
+
+  justify-content: center;
+  text-align: center;
+}
+.mfd {
+  padding-right: 5%;
+}
+.mfd a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+  padding-bottom: 5%;
+}
+#mobile-footer-div a:hover {
+  color: blue;
+}
 #the-company {
   color: white;
   text-decoration: none;
